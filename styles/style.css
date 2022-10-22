@@ -56,9 +56,14 @@
 
     .subscription {
         display: flex;
-        flex-direction: row;
-        width: 0vw;
+        flex-direction: column;
+        width: 50vw;
         margin: auto;
+    }
+
+    #btn {
+        position: relative;
+        float: right;
     }
 
     .icons-container {
