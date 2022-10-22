@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
 @media only screen and (min-width: 992px) {
+    header {
+        padding: 30px 60px;
+    }
+
     .banner-container {
         min-height: 375px;
+    }
+
+    .products-content {
+        padding: 20px 80px;
     }
 
     .card {
@@ -13,6 +21,10 @@
         display: flex;
         justify-content: space-between;
         width: 70vw;
+    }
+
+    .nav-icon {
+        font-size: 36px;
     }
 
     .products-title {
@@ -52,21 +64,45 @@
     .footer {
         display: flex;
         flex-direction: column;
+
     }
 
     .subscription {
-        display: flex;
-        flex-direction: column;
-        width: 50vw;
-        margin: auto;
+        display: inline-block;
+        position: absolute;
+        width: 35%;
+        right: 0;
+        margin-top: 50px;
+    }
+
+    .subscription label {
+        display: block;
+        font-size: 16px;
+    }
+
+    .subscription input {
+        width: 50%;
+        border-radius: 3px 0 0 3px;
     }
 
     #btn {
-        position: relative;
+        border-radius: 0px 3px 3px 0px;
         float: right;
+        width: 20%;
+        margin: 0 30% 0 0;
+        padding: 10px;
+
+    }
+
+    .footer ul li {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px 0 5px 50px;
     }
 
     .icons-container {
         padding: 30px;
     }
+
+
 }
