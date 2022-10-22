@@ -26,11 +26,13 @@ header {
 .logo {
     display: flex;
     align-items: baseline;
-    font-weight: 600;
 }
 
 .logo-title {
+    font-weight: 500;
     margin: 0 0 0 5px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17.91px;
 }
 
 .navbar {
@@ -40,7 +42,7 @@ header {
 }
 
 .icon {
-    color: #61b51c;
+    color: #5CA720;
     margin: .30rem;
 }
 
@@ -49,7 +51,7 @@ header {
     height: 100%;
     max-height: 100%;
     max-width: 100%;
-    min-height: 25vh;
+    min-height: 26vh;
     /* min-height: 60vh; on Desktop */
     background: url('/assets/banner.png') center center no-repeat;
     background-size: cover;
