@@ -6,3 +6,51 @@
     --corLinhas: #A5A1A1;
     --corBackFooter: #F9F9F9;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.container {
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    font-weight: 600;
+}
+
+.logo-title {
+    margin: 0 0 0 5px;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+
+.icon {
+    color: #61b51c;
+    margin: .30rem;
+}
+
+.banner-container {
+    display: grid;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 25vh;
+    /* min-height: 60vh; on Desktop */
+    background: url('/assets/banner.png') center center no-repeat;
+    background-size: cover;
+}
