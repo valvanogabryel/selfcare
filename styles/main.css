@@ -55,7 +55,6 @@ header {
     max-height: 100%;
     max-width: 100%;
     min-height: 26vh;
-    /* min-height: 60vh; on Desktop */
     background: url('/assets/banner.png') center center no-repeat;
     background-size: cover;
 }
@@ -89,11 +88,6 @@ header {
 
 .card {
     margin-top: 20px;
-}
-
-.card-img {
-    height: 126.44px;
-    width: 126.44px;
 }
 
 .card-description {

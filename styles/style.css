@@ -1,1 +1,67 @@
 @charset "UTF-8";
+
+@media only screen and (min-width: 992px) {
+    .banner-container {
+        min-height: 375px;
+    }
+
+    .card {
+        margin: 40px;
+    }
+
+    .products-grid {
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+    }
+
+    .products-title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .products-quantity {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .card-description {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .card-description p {
+        margin-bottom: 15px;
+    }
+
+    .price {
+        font-weight: 700;
+    }
+
+    .price-value {
+        font-size: 20px;
+    }
+
+    img {
+        height: 303px;
+        width: 303px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscription {
+        display: flex;
+        flex-direction: row;
+        width: 0vw;
+        margin: auto;
+    }
+
+    .icons-container {
+        padding: 30px;
+    }
+}
