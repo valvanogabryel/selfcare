@@ -39,9 +39,10 @@
                 </a>
             </div>
             <nav class="navbar">
-                <i class="material-symbols-outlined icon">search</i>
-                <i class="material-symbols-outlined icon">person</i>
-                <i class="material-symbols-outlined icon">shopping_cart</i>
+                <button type="button" onclick="searchBarAppears(), search()" id="search"><i
+                        class="material-symbols-outlined icon" id="search">search</i></button>
+                <a href="login.html"><i class="material-symbols-outlined icon">person</i></a>
+                <a href="shop.html"><i class="material-symbols-outlined icon">shopping_cart</i></a>
             </nav>
         </header>
         <section class="banner-container">
@@ -144,16 +145,24 @@
     <footer class="footer">
         <div>
             <ul>
-                <li>Contato</li>
-                <li>Termos de serviço</li>
-                <li>Política de privacidade</li>
-                <li>Cancelamento, troca e reembolso</li>
+                <a href="contact.html">
+                    <li>Contato</li>
+                </a>
+                <a href="terms.html">
+                    <li>Termos de serviço</li>
+                </a>
+                <a href="privacy-policy.html">
+                    <li>Política de privacidade</li>
+                </a>
+                <a href="services">
+                    <li>Cancelamento, troca e reembolso</li>
+                </a>
             </ul>
         </div>
         <div class="subscription">
             <label for="iemail">Newsletter</label>
             <input type="email" name="email" id="iemail" placeholder="Digite seu melhor e-mail">
-            <input type="button" value="Inscrever" id="btn">
+            <input type="submit" value="Inscrever" id="btn">
         </div>
         <hr>
         <div class="icons-container">
@@ -164,13 +173,15 @@
             <div class="credit-card-logos">
                 <div>
                     <!--IDS PARA HOVER DE COR (TENTAR LINEAR-GRADIENT)-->
-                    <i class="fa-brands fa-cc-mastercard" style="font-size: 24px;" id="mastercard"></i>
-                    <i class="fa-brands fa-cc-paypal" style="font-size: 24px;" id="paypal"></i>
-                    <i class="fa-brands fa-cc-visa" style="font-size: 24px;" id="visa"></i>
+                    <i class="fa-brands fa-cc-mastercard cards-icon" style="font-size: 24px;" id="mastercard"></i>
+                    <i class="fa-brands fa-cc-paypal cards-icon" style="font-size: 24px;" id="paypal"></i>
+                    <i class="fa-brands fa-cc-visa cards-icon" style="font-size: 24px;" id="visa"></i>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
