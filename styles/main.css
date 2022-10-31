@@ -57,21 +57,23 @@ header {
 
 .search-input {
     position: absolute;
-    right: 100%;
+    right: 6%;
     padding: 7px;
     border-radius: 0 5px 5px 0;
     transition: .3s;
+    width: 100%;
 }
 
 .search-button {
     position: absolute;
-    right: 283%;
-    padding: 5px;
+    right: 104%;
+    padding: 7.8px;
     border-radius: 5px 0 0 5px;
     cursor: pointer;
     transition: .3s;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 800;
+    width: 72%;
 }
 
 .search-button:hover {
@@ -79,7 +81,7 @@ header {
     color: #fff;
 }
 
-#search {
+#button-search {
     background: transparent;
     border: none;
 }

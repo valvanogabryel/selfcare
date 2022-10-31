@@ -12,6 +12,12 @@ function searchBarAppears() {
     searchBtn.classList.add('search-button')
     navbar.appendChild(searchInput);
     navbar.appendChild(searchBtn);
+
+}
+searchBtn.addEventListener('click', search);
+
+function search() {
+    alert(`O item pesquisado não se encontra no catálogo.`)
 }
 
 window.addEventListener('click', function () {

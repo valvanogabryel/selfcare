@@ -5,6 +5,23 @@
         padding: 30px 60px;
     }
 
+    .search-input {
+        right: 100%;
+        width: 186%;
+    }
+
+    .search-button {
+        position: absolute;
+        right: 283%;
+        padding: 5px;
+        border-radius: 5px 0 0 5px;
+        cursor: pointer;
+        transition: .3s;
+        font-size: 14px;
+        font-weight: 800;
+        width: 100%;
+    }
+
     .banner-container {
         min-height: 375px;
     }
