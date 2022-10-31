@@ -1,0 +1,95 @@
+ @media screen and (min-width: 1200px) and (max-width: 1300px) {
+     img {
+         height: 200px;
+         width: 200px;
+     }
+
+     .card-description {
+         font-size: 16px;
+         line-height: 2px;
+     }
+
+     .subscription input {
+         width: 49%;
+     }
+
+     #btn {
+         width: 21%;
+     }
+ }
+
+ @media screen and (min-width: 992px) and (max-width: 1200px) {
+     img {
+         height: 200px;
+         width: 200px;
+     }
+
+     .card-description {
+         font-size: 16px;
+         line-height: 2px;
+     }
+
+     .subscription {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .subscription label {
+         position: absolute;
+         bottom: 2.5rem;
+         right: 19rem;
+     }
+
+     .subscription input {
+         width: auto;
+     }
+
+     #btn {
+         width: auto;
+         position: relative;
+         bottom: 0.3rem;
+         padding-top: 8px;
+         font-size: 12px;
+     }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+     .card {
+         margin: 50px;
+     }
+
+     .card-description {
+         font-size: 16px;
+         line-height: 25px;
+     }
+
+     img {
+         height: 200px;
+         width: 200px;
+     }
+ }
+
+ @media screen and (min-width: 400px) and (max-width: 414px) {
+     .products-grid {
+         width: 90vw;
+     }
+ }
+
+ @media screen and (max-width: 300px) {
+     img {
+         height: 200px;
+         width: 200px;
+     }
+
+     .card-description {
+         font-size: 16px;
+     }
+
+
+
+     .products-grid {
+         width: 90vw;
+     }
+ }
