@@ -3,7 +3,6 @@ const searchIcon = document.getElementById('search');
 let searchInput = document.createElement('input');
 let searchBtn = document.createElement('button')
 
-
 function searchBarAppears() {
     searchInput.type = 'text';
     searchBtn.type = 'submit';
@@ -12,7 +11,6 @@ function searchBarAppears() {
     searchBtn.classList.add('search-button')
     navbar.appendChild(searchInput);
     navbar.appendChild(searchBtn);
-
 }
 searchBtn.addEventListener('click', search);
 
