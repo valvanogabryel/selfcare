@@ -147,9 +147,10 @@ header {
 
 
 img {
-    width: 126.44px;
-    height: 126.44px;
+    width: 100%;
+    height: 100%;
     border-radius: 2.08651px;
+    object-fit: cover;
 }
 
 hr {
